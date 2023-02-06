@@ -6,7 +6,7 @@ edition = "2021"
 description = "Subsystem metric helpers"
 
 [dependencies]
-futures = "0.3.21"
+futures = "0.3.26"
 futures-timer = "3.0.2"
 gum = { package = "tracing-gum", path = "../gum" }
 
