@@ -6,7 +6,7 @@ edition = "2021"
 
 [dependencies]
 bitvec = { version = "1.0.0", default-features = false, features = ["alloc"] }
-futures = "0.3.21"
+futures = "0.3.27"
 gum = { package = "tracing-gum", path = "../../gum" }
 thiserror = "1.0.31"
 polkadot-primitives = { path = "../../../primitives" }
