@@ -7,7 +7,7 @@ description = "Subsystem traits and message definitions"
 
 [dependencies]
 async-trait = "0.1.57"
-futures = "0.3.21"
+futures = "0.3.27"
 itertools = "0.10"
 parity-scale-codec = { version = "3.1.5", default-features = false, features = ["derive"] }
 parking_lot = "0.11.2"
@@ -39,7 +39,7 @@ parity-db = { version = "0.3.13" }
 [dev-dependencies]
 assert_matches = "1.4.0"
 env_logger = "0.9.0"
-futures = { version = "0.3.21", features = ["thread-pool"] }
+futures = { version = "0.3.27", features = ["thread-pool"] }
 log = "0.4.17"
 polkadot-node-subsystem-test-helpers = { path = "../subsystem-test-helpers" }
 lazy_static = "1.4.0"
