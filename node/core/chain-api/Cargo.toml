@@ -5,7 +5,7 @@ authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2021"
 
 [dependencies]
-futures = "0.3.21"
+futures = "0.3.28"
 gum = { package = "tracing-gum", path = "../../gum" }
 sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.32" }
 polkadot-primitives = { path = "../../../primitives" }
@@ -15,7 +15,7 @@ sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "pol
 sc-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.32" }
 
 [dev-dependencies]
-futures = { version = "0.3.21", features = ["thread-pool"] }
+futures = { version = "0.3.28", features = ["thread-pool"] }
 maplit = "1.0.2"
 parity-scale-codec = "3.1.5"
 polkadot-node-primitives = { path = "../../primitives" }

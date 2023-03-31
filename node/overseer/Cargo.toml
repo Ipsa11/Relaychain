@@ -7,7 +7,7 @@ edition = "2021"
 [dependencies]
 client = { package = "sc-client-api", git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.32" }
 sp-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.32" }
-futures = "0.3.21"
+futures = "0.3.28"
 futures-timer = "3.0.2"
 parking_lot = "0.12.0"
 polkadot-node-network-protocol = { path = "../network/protocol" }
@@ -26,7 +26,7 @@ async-trait = "0.1.57"
 metered = { package = "prioritized-metered-channel", version = "0.2.0" }
 
 sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.32" }
-futures = { version = "0.3.21", features = ["thread-pool"] }
+futures = { version = "0.3.28", features = ["thread-pool"] }
 femme = "2.2.1"
 assert_matches = "1.4.0"
 test-helpers = { package = "polkadot-primitives-test-helpers", path = "../../primitives/test-helpers" }
